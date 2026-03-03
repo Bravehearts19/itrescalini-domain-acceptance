@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nome Associazione</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f5f7fa;
+      color: #2d2d2d;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #1a5276;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.4rem;
+    }
+
+    header p.tagline {
+      font-size: 1rem;
+      opacity: 0.85;
+    }
+
+    main {
+      flex: 1;
+      max-width: 720px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      color: #1a5276;
+      margin-bottom: 0.8rem;
+    }
+
+    .card p {
+      line-height: 1.7;
+      color: #444;
+    }
+
+    .contact a {
+      color: #1a5276;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #eaf2fb;
+      color: #1a5276;
+      border-radius: 20px;
+      padding: 0.3rem 0.9rem;
+      font-size: 0.85rem;
+      margin-top: 0.8rem;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.82rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>I Tre Scalini APS</h1>
+    <p class="tagline">Associazione di Promozione Sociale</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Chi siamo</h2>
+      <p>
+        Siamo un'associazione no profit impegnata a valorizzare il teatro comico e l'animazione.
+        Operiamo sul territorio con l'obiettivo di strappare qualche risata e formare giovani animatori ed animatrici, oltre che facendo intrattenimento e predisponendo serate ludico ricreative, promuovendo valori di
+        solidarietà, partecipazione e inclusione.
+      </p>
+      <span class="badge">APS — Associazione di Promozione Sociale</span>
+    </div>
+
+    <div class="card">
+      <h2>Cosa facciamo</h2>
+      <p>
+        Collaboriamo con enti, istituzioni e volontari per portare avanti i nostri progetti
+        e rispondere ai bisogni della comunità.
+      </p>
+    </div>
+
+    <div class="card contact">
+      <h2>Contatti</h2>
+      <p>Per informazioni o collaborazioni, scrivici a:<br />
+        <a href="mailto:info@itrescalini.com">info@itrescalini.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 I TRE SCALINI APS - C.F.: 93018200183 — Tutti i diritti riservati
+  </footer>
+
+</body>
+</html>
